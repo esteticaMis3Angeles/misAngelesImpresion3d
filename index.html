@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <title>Impresión 3D | Mis Ángeles Impresión 3D</title>
+    <!-- Performance: Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Mis Ángeles Impresión 3D</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <img src="img/icons/phone.svg" alt="phone" class="icon">55 3714 3391
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <img src="img/icons/location.svg" alt="location" class="icon">Calle Veracruz # 37 · Col Isidro Fabela, Tecámac , Edo Mex
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="containter container--flex">
+            <span class="icon-menu" id="btnmenu">
+                
+            </span>
+            <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">Inicio</a></li>
+                    <li class="menu__item"><a href="#servicios" class="menu__link menu-nav-link" data-section="servicios">SERVICIOS</a></li>
+                    <li class="menu__item"><a href="#materiales" class="menu__link menu-nav-link" data-section="materiales">MATERIALES</a></li>
+                    <li class="menu__item"><a href="#precios" class="menu__link menu-nav-link" data-section="precios">Otros</a></li>
+                    <!-- <li class="menu__item"><a href="galeria.html" class="menu__link menu-nav-link">GALERÍA</a></li> -->
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><img src="img/icons/facebook.svg" alt="facebook" class="icon"></a>
+                <!-- <a href="" class="social-icon__link"><img src="img/icons/twitter.svg" alt="twitter" class="icon"></a>
+                <a href="" class="social-icon__link"><img src="img/icons/envelope.svg" alt="email" class="icon"></a> -->
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="img/banner.png" alt="Impresión 3D Banner" class="banner__img" loading="lazy" decoding="async" width="1920" height="500">
+        <div class="banner__content">Transformamos tus ideas en objetos reales</div>
+    </section>
+
+    <main class="main">
+        <section class="group group--color">
+            <div class="container">
+                <h2 class="main__title">Servicios profesionales de Impresión 3D</h2>
+                <p class="main__txt">Prototipos, piezas funcionales y modelos personalizados en PLA, ABS, PETG y resina. Calidad, acabado y asesoría técnica desde el diseño hasta la pieza final.</p>
+            </div>    
+        </section>
+        
+        <section class="group main__about__description">
+            <div class="container container--flex">
+                <div class="column column--50">
+                    <img src="img/impresiones_3d.png" alt="Impresora 3D" loading="lazy" decoding="async">
+                </div>
+                <div class="column column--50">
+                    <h3 class="column__title">Impresión, acabado y postprocesado</h3>
+                    <p class="column__txt">Corte, lijado, pintura y ensamblado según tus necesidades. Ofrecemos revisión de modelos y optimización para impresión sin costo adicional en la primera revisión.</p>
+                    <a href="https://wa.me/+5215537143391" class="btn btn--contact">Solicitar presupuesto</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="group today-special" id="servicios">
+            <h2 class="group__title">SERVICIOS</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/portfolio1.png" alt="Prototipo" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">Prototipos rápidos</div>
+                    <div class="today-special__description">Impresión rápida para validar forma y ajuste. Ideal para iteraciones de diseño.</div>
+                    <div class="today-special__price">Desde $50</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/portfolio2.png" alt="Pieza funcional" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">Piezas funcionales</div>
+                    <div class="today-special__description">Piezas resistentes para uso final en PLA, PETG o ABS con ajustes mecánicos.</div>
+                    <div class="today-special__price">Desde $50</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/portfolio3.png" alt="Modelos a medida" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">Modelos a medida</div>
+                    <div class="today-special__description">Figuras personalizadas, maquetas y regalos con acabado fino.</div>
+                    <div class="today-special__price">Desde $50</div>
+                </div>
+                <!-- <div class="column column--50-25">
+                    <img src="img/portfolio4.jpg" alt="Escaneo y reparación" class="today-special__img">
+                    <div class="today-special__title">Escaneo y reparación de mallas</div>
+                    <div class="today-special__description">Reparación de STL/OBJ y escaneo 3D para piezas dañadas o incompletas.</div>
+                    <div class="today-special__price">Desde $350</div>
+                </div> -->
+            </div>
+        </section>
+        <section class="group today-special" id="materiales">
+            <h2 class="group__title">MATERIALES</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/PLA.png" alt="PLA" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">PLA</div>
+                    <div class="today-special__price">Económico, fácil de imprimir</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/PETG.png" alt="PETG" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">PETG</div>
+                    <div class="today-special__description">Mayor resistencia y durabilidad para piezas funcionales</div>
+                    <div class="today-special__price">Recomendado para uso exterior</div>
+                </div>
+                <!-- <div class="column column--50-25">
+                    <img src="img/portfolio3.jpg" alt="Resina" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">Resina (SLA/DLP)</div>
+                    <div class="today-special__price">Acabado fino para miniaturas y joyería</div>
+                </div> -->
+            </div>
+        </section>
+        <section class="group today-special" id="precios">
+            <h2 class="group__title">OTROS</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/precio_volumen.png" alt="Precios por volumen" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">Precios por volumen</div>
+                    <div class="today-special__price">Descuentos a partir de 10 piezas</div>
+                </div>
+                <!-- <div class="column column--50-25">
+                    <img src="img/portfolio2.jpg" alt="Postprocesado" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">Postprocesado</div>
+                    <div class="today-special__price">Lijado y pintado disponible por encargo</div>
+                </div> -->
+                <div class="column column--50-25">
+                    <img src="img/asesoria_tecnica.png" alt="Asesoría técnica" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">Asesoría técnica</div>
+                    <div class="today-special__price">Optimización de diseño y pruebas</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/entrega_logistica.png" alt="Entrega" class="today-special__img">
+                    <div class="today-special__title">Entrega y logística</div>
+                    <div class="today-special__price">Envío o entrega local disponible</div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="group today-special" id="combos">
+            <h2 class="group__title">COMBOS</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/portfolio1.jpg" alt="" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">COMBO JOCHOS</div>
+                    <div class="today-special__description">Orden de dos hot dogs acompañado de papas o Nachos</div>
+                    <div class="today-special__price">$60</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/portfolio2.jpg" alt="" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">COMBO HAMBURGUESA</div>
+                    <div class="today-special__description">Hambuguesa grande con queso acompañado de papas o nachos</div>
+                    <div class="today-special__price">$75</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/portfolio3.jpg" alt="" class="today-special__img" loading="lazy" decoding="async">
+                    <div class="today-special__title">COMBO DE ARRACHERA</div>
+                    <div class="today-special__description">Hamburguesa de arrachera acompañado de papas o nachos</div>
+                    <div class="today-special__price">$95</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/portfolio4.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">COMBO HAWAIANA</div>
+                    <div class="today-special__description">Hambuguesa grande con queso, piña y jamon acompañado de papas o nachos</div>
+                    <div class="today-special__price">$85</div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+
+        <footer class="main-footer">
+            <div class="container container--flex">
+                <div class="column column--33">
+                    <h2 class="column__title">¿Por qué visitarnos?</h2>
+                    <p class="column__txt">Damos vida a tus sueños: En Mis Ángeles, cada capa de impresión es un paso más hacia la materialización de tus ideas más ambiciosas.
+                        Calidad que inspira: Cuidamos cada detalle como si fuera propio, garantizando piezas con acabados suaves y una estética impecable.
+                        Soluciones a tu medida: Ya sea una pieza única o una producción en serie, tratamos cada proyecto con la dedicación y cuidado que se merece.</p>
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Contáctanos</h2>
+                    <p class="column__txt">Calle Veracruz # 37 · Col Isidro Fabela, Tecámac , Edo Mex</p>
+                    <p class="column__txt">Teléfono: +52 1 55 3714 3391</p>
+                    <!-- <p class="column__txt">hola@misangeles3d.com</p> -->
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Síguenos en nuestras redes</h2>
+                    <p class="column__txt"><a href="" class="social-link"><img src="img/icons/facebook.svg" alt="facebook" class="icon"> Facebook</a></p>
+                    <!-- <p class="column__txt"><a href="" class="social-link"><img src="img/icons/twitter.svg" alt="twitter" class="icon"> Síguenos en Twitter</a></p>
+                    <p class="column__txt"><a href="" class="social-link"><img src="img/icons/youtube.svg" alt="youtube" class="icon"> Visita nuestro canal</a></p> -->
+                </div>
+                <p class="copy">© 2026 Mis Ángeles Impresión 3D | Todos los derechos reservados</p>
+            </div>
+        </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/+5215537143391" target="_blank" rel="noopener noreferrer" class="whatsapp-float" title="Contactanos por WhatsApp">
+        <img src="img/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/scroll-menu.js" defer></script>
+</body>
+</html>
