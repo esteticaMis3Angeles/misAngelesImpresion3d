@@ -2,7 +2,7 @@
     padding: 10px;
     padding-top: 0;
     margin-bottom: 30px;
-    border-bottom: 1px solid rgba(43,231,255,0.06);
+    border-bottom: 1px solid #DE423A;
 }
 .contact-information .column__title {
     font-family: 'Pacifico', cursive;
@@ -56,7 +56,7 @@
         font-size: .75em;
     }
     .contact-information {
-        border-right: 1px solid rgba(43,231,255,0.05);
+        border-right: 1px solid #DE423A;
         border-bottom: none;
     }
 }
